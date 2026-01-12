@@ -1,0 +1,122 @@
+📐 Responsive Image and Button Layout (Bootstrap 4)
+
+This layout implements a responsive hero section using **Bootstrap 4’s grid system** combined with minimal custom CSS to ensure consistent alignment across screen sizes.
+
+
+🧱 Layout Structure
+
+The page uses a standard Bootstrap container and row:
+
+```html
+<div class="container bg">
+  <div class="row">
+    ...
+  </div>
+</div>
+```
+
+* `container` provides horizontal padding and responsive width
+* `row` enables the Bootstrap grid layout
+* `bg` applies a custom background color
+
+
+
+📱 Responsive Columns
+
+Left Column (Large screens only)
+
+```html
+<div class="col-lg-6 d-none d-sm-none d-md-none d-lg-block">
+```
+
+* Visible only on **large (lg) screens**
+* Occupies half the width
+* Displays the VR image as a visual element
+
+
+
+Right Column (All screen sizes)
+
+```html
+<div class="col-12 col-md-12 col-lg-6 text-center">
+```
+
+* Full width on **small and medium** screens
+* Half width on **large** screens
+* Centers text and interactive elements
+
+
+
+ 🖼️ Image Rendering
+
+```html
+<img
+  src="..."
+  class="image img-fluid d-lg-none d-md-block"
+/>
+```
+
+* `img-fluid` ensures the image scales with the container
+* `d-md-block d-lg-none` controls visibility:
+
+  * Shown on medium screens
+  * Hidden on large screens
+* The image stacks naturally above the button on smaller devices
+
+
+
+🎯 Image Styling
+
+```css
+.image {
+  height: 200px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+```
+
+* Maintains consistent image height
+* Prevents overflow on smaller screens
+* Centers the image horizontally
+
+🔘 Call-to-Action Button
+
+```html
+<button>contact us</button>
+```
+
+```css
+button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 130px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+
+* Styled as an outlined button
+* Naturally appears below the image due to block-level layout flow
+* Maintains consistent spacing across breakpoints
+
+
+
+🎨 Typography & Theme
+
+* Google Fonts are imported for consistent typography
+* The background color (`#222b36`) creates contrast
+* White text and borders ensure readability
+
+
+
+✅ Result
+
+* Fully responsive layout
+* Image remains centered at all sizes
+* Button always appears below the image
+* Clean separation of layout (Bootstrap) and styling (CSS)
+
+
