@@ -1,0 +1,112 @@
+📌 Trending Blogs – Responsive Card Layout
+
+This project implements a responsive “Trending Blogs” section using Bootstrap 4 and custom CSS. The layout is designed to adapt smoothly across mobile, tablet, and desktop screen sizes while maintaining a clean and modern visual hierarchy.
+
+🧱 Layout Structure
+
+The section is wrapped inside a Bootstrap container and organized using a single row.
+
+The grid system is used to control how content behaves at different breakpoints.
+
+Mobile & Tablet: Cards stack vertically for readability.
+
+Desktop (lg and above): Cards are displayed side by side in two columns.
+
+<div class="col-12 col-md-12 col-lg-6">
+
+🖼️ Card Design
+
+Each blog item is represented as a card component consisting of:
+
+A featured image
+
+Category label
+
+Blog title/description
+
+“Read More” call-to-action
+
+The card content is wrapped inside a .card container to ensure consistent spacing and alignment.
+
+✨ Visual Depth with Shadows
+
+Bootstrap’s shadow utility is applied to the card container to add depth and visual separation from the background:
+
+<div class="col-12 col-md-12 col-lg-6 shadow">
+
+This provides a subtle elevation effect that improves content focus without overwhelming the design.
+
+🎯 Image Handling
+
+Images are styled to maintain consistent height and align cleanly within each card:
+
+.image {
+
+    height: 190px;
+
+    width: auto;
+
+}
+
+This ensures:
+
+Uniform appearance across cards
+
+Proper scaling on different screen sizes
+
+Clean alignment with card content
+
+✍️ Typography & Content Styling
+
+Custom typography enhances readability and hierarchy:
+
+Section heading emphasizes the page context.
+
+Category text uses muted colors to differentiate metadata.
+
+Main paragraph text is larger and bolder to draw attention.
+
+Read More text uses color contrast and cursor styling to indicate interactivity.
+
+🔗 Interactive Elements
+
+The “Read More” text is styled to behave like an interactive link:
+
+.readmore {
+
+    cursor: pointer;
+
+}
+
+This improves usability by providing a clear visual cue for user interaction.
+
+📐 Button Alignment
+
+The “View All” button is positioned using Flexbox utilities:
+
+<div class="d-flex justify-content-end">
+
+This keeps the button aligned to the right on larger screens while remaining responsive on smaller devices.
+
+🎨 Design Consistency
+
+Google Fonts ensure consistent typography across the section.
+
+A minimal color palette maintains a professional and modern look.
+
+Rounded corners and shadows create a polished UI appearance.
+
+✅ Result
+
+Responsive, grid-based layout
+
+Clean and structured card components
+
+Visual depth through shadows
+
+Clear typography and interaction cues
+
+Suitable for production use and portfolio projects
+
+This implementation demonstrates effective use of Bootstrap’s grid system, utility classes, and custom CSS to build a scalable and maintainable UI component.
+
