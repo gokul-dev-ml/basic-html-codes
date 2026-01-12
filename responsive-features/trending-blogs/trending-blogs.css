@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.image{
+    height: 190px;
+    width: auto;
+    padding: 0px;
+}
+h1{
+    font-family: "Roboto";
+    color: #1f2933;
+    font-weight: 600;
+    
+}
+.paragraph-Amazon{
+    font-family: "Roboto";
+    color: #959ead;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+.paragraph{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #323f4b;
+    word-wrap: break-word;
+    font-weight: 500;
+    margin: auto;
+    padding-left: 8px;
+    
+}
+.readmore{
+    font-family: "Roboto";
+    color: #1754a1;
+    font-weight: 600;
+    cursor: pointer;
+    padding-left: 8px;
+}
+.card{
+    margin-top: 20px;
+    border-top-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+}
+
+button{
+    background-color: #1754a1;
+    color: white;
+    margin-top: 30px;
+    height: 60px;
+    width: 140px;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
