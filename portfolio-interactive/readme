@@ -1,0 +1,124 @@
+📌 Project Overview
+
+This project is a responsive personal portfolio section designed using HTML, CSS, Bootstrap, and Google Fonts.
+
+It highlights personal information and technical skills in a clean, modern layout that adapts across devices.
+
+The page is divided into:
+
+About Me / Facts section
+
+Skills showcase section
+
+🎯 Objective
+
+To create a responsive frontend UI that:
+
+Presents personal details clearly
+
+Showcases technical skills visually
+
+Works seamlessly on desktop, tablet, and mobile screens
+
+🛠️ Technologies Used
+
+HTML5 – Page structure
+
+CSS3 – Custom styling
+
+Bootstrap 4.5 – Responsive grid & utilities
+
+Google Fonts – Typography (Roboto and others)
+
+🎨 Features
+
+Responsive two-column layout for desktop
+
+Image hidden/shown based on screen size
+
+Skills displayed using card components
+
+Clean dark theme with contrast colors
+
+Mobile-first responsive behavior
+
+📱 Responsive Design
+
+Desktop (md and above):
+
+Image shown on the left
+
+Content on the right
+
+Mobile & Tablet:
+
+Image shown inside content
+
+Single-column layout
+
+Bootstrap utility classes used:
+
+d-none
+
+d-md-inline
+
+d-md-none
+
+container-fluid, row, col-*
+
+📂 Project Structure
+
+project-folder/
+
+│
+
+├── index.html
+
+├── styles.css   (or internal CSS)
+
+└── README.md
+
+🖼️ Sections Breakdown
+
+1️⃣ About Me / Facts
+
+Name and professional summary
+
+Experience details
+
+Personal strengths and interests
+
+Responsive image handling
+
+2️⃣ Skills Section
+
+HTML
+
+CSS
+
+Bootstrap
+
+JavaScript
+
+Each skill is displayed using:
+
+Icon image
+
+Skill name
+
+Card-style layout
+
+🎯 Learning Outcomes
+
+Bootstrap grid system
+
+Responsive visibility utilities
+
+Font integration using Google Fonts
+
+Flexbox alignment with Bootstrap
+
+Clean UI design practices
+
+
+
