@@ -1,0 +1,88 @@
+📌 Project Overview
+
+This project is a responsive personal portfolio website built using HTML5, CSS3, and Bootstrap 4.
+
+It features a modern hero/banner section with a navigation bar and adaptive layout that works seamlessly across desktop, tablet, and mobile devices.
+
+The design focuses on clarity, responsiveness, and clean UI structure, making it suitable for personal branding and frontend portfolios.
+
+🎯 Objectives
+
+Build a responsive hero section using Bootstrap’s grid system
+
+Implement a professional navigation bar
+
+Ensure proper alignment and ordering across different screen sizes
+
+Apply consistent typography and color theming
+
+🛠️ Technologies Used
+
+HTML5 – Semantic page structure
+
+CSS3 – Custom styling and layout control
+
+Bootstrap 4.5 – Responsive grid, navbar, and utility classes
+
+Google Fonts (Roboto) – Clean and readable typography
+
+✨ Key Features
+
+Fully responsive layout (mobile-first approach)
+
+Bootstrap navbar with collapsible menu
+
+Hero section with text and image alignment
+
+Column reordering based on screen size
+
+Clean dark-theme UI with accent highlights
+
+📱 Responsive Behavior
+
+Mobile Devices
+
+Image appears above the text
+
+Stacked single-column layout
+
+Tablets & Desktop
+
+Two-column layout
+
+Text on the left, image on the right
+
+Proper vertical alignment using Flexbox
+
+📂 Project Structure
+
+responsive-portfolio/
+
+│
+
+├── index.html
+
+├── style.css
+
+├── README.md
+
+└── assets/
+
+    └── images/
+
+🧠 Learning Outcomes
+
+Correct usage of Bootstrap grid (container → row → col)
+
+Column ordering with responsive breakpoints
+
+Combining Flexbox and Bootstrap utilities correctly
+
+Creating professional hero sections for portfolios
+
+Managing spacing and alignment in responsive layouts
+Cloud Engineer & Full Stack Developer
+
+
+
+Just tell me what you want next.
