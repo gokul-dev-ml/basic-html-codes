@@ -171,4 +171,4 @@ Easy to integrate into larger websites
 Clean structure for future enhancements
 
 <img width="644" height="309" alt="Screenshot 2026-01-17 200451" src="https://github.com/user-attachments/assets/7e8b54c2-b797-4e7d-bfcd-a0785a7a6cab" />
-![Uploading Screenshot 2026-01-17 200523.png…]()
+<img width="498" height="673" alt="Screenshot 2026-01-17 200523" src="https://github.com/user-attachments/assets/79e20996-745e-47b7-8a3c-af3298ebc49b" />
