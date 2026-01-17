@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <h1>Our Products</h1>
+            </div>
+            <div class="col-12 col-md-6 mt-md-4 d-flex flex-row justify-content-center">
+                <div class="card image d-flex flex-column justify-content-end">
+                    <h2>Smart Headphones</h2>
+                    <p>Headphones with Deep Bass, sound,touch ...</p>
+                    <!-- Button to trigger modal -->
+                    <button type="button" class="buttonclass mb-4" data-toggle="modal" data-target="#headphoneModal">
+                        View Details
+                    </button>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-row justify-content-center mt-sm-4 mb-5">
+                <div class="card image2 d-flex flex-column justify-content-end">
+                    <h2>Laptops</h2>
+                    <p>Explore vast selection for Laptops...</p>
+                    <!-- Button to trigger modal -->
+                    <button type="button" class="buttonclass mb-4" data-toggle="modal" data-target="#laptopmodel">
+                        View Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal should be placed at the end of body, outside main containers -->
+    <div class="modal fade " id="headphoneModal" tabindex="-1" aria-labelledby="headphoneModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="headphoneModalLabel">Sony WH-1000XM4 Noise Cancelling Headphones</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="paragraph">Get Best Smart Headphones Prives Online in India. Select from the best range of Headphones from most popular brands ...</p>
+                    <ul>
+                        <li><span>Voice assistant: </span>Alexa, Google Assistant & Siri</li>
+                        <li><span>Smart listening:</span>Ambient sound with the best noise cancellation</li>
+                        <li><span>Long battery life: </span>A single charge provides 30 hours of playtime</li>
+                        <li><span>Quick charging:</span>Charge for 10 min for 5hours play back</li>
+                        <li><span>Touch controls:</span>Change the track with your fingertip</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade " id="laptopmodel" tabindex="-1" aria-labelledby="laptopModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="headphoneModalLabel">Inspiron 14 5490 core i5 Laptop</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="paragraph">Get Best Smart Headphones Prives Online in India. Select from the best range of Headphones from most popular brands ...</p>
+                    <ul>
+                        <li><span>Performance: </span>Core i5 3rd Gen, 2.6 Ghz, 4GB RAM</li>
+                        <li><span>Storage: </span> 500 GB HDD, SATA, 7200 RPM </li>
+                        <li><span>Battery:</span>Li-lon, 6 Cell</li>
+                        <li><span>Design: </span>14.0 Inches, 1366 X 768, 2.07 Kg,34 Mm Thick</li>
+                        
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
