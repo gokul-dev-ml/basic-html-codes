@@ -202,3 +202,7 @@ Modals handled purely via Bootstrap data attributes
 
 Easy to integrate into larger e-commerce projects
 
+
+
+https://github.com/user-attachments/assets/a4b71d67-18cb-4d6a-8f3d-e1ccf55a3580
+
