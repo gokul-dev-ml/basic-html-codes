@@ -1,0 +1,178 @@
+📦 Responsive E-Commerce Navbar & Carousel (Bootstrap 4)
+
+📌 Overview
+
+This project implements a responsive e-commerce header using Bootstrap 4, consisting of:
+
+A responsive navigation bar
+
+Two separate carousels:
+
+📱 Mobile carousel (small images)
+
+🖥️ Desktop carousel (large images)
+
+Custom CSS to control carousel height without breaking Bootstrap behavior
+
+The layout is optimized for mobile-first design and avoids common Bootstrap carousel issues.
+
+🧩 Technologies Used
+
+HTML5
+
+CSS3
+
+Bootstrap 4.5.2
+
+Google Fonts
+
+🧭 Layout Structure
+
+1️⃣ Navigation Bar
+
+Uses Bootstrap’s navbar component
+
+Logo aligned left
+
+Menu items aligned right using ml-auto
+
+Collapses into a hamburger menu on smaller screens
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+Custom Logo Styling
+
+.image {
+
+  height: 40px;
+
+  width: 85px;
+
+}
+
+2️⃣ Mobile Carousel (Small Screens Only)
+
+<div class="d-md-none d-sm-block">
+
+✔ Visible only on small screens
+
+✔ Uses mobile-optimized images
+
+Each slide uses:
+
+<div class="carousel-item custom-slide">
+
+3️⃣ Desktop Carousel (Medium & Large Screens)
+
+<div class="d-md-block d-sm-none d-none">
+
+✔ Visible only on md and larger screens
+
+✔ Uses high-resolution images
+
+🎞️ Carousel Behavior (Important Design Choices)
+
+✅ Why custom-slide Exists
+
+Bootstrap does not control carousel height by default.
+
+Height is controlled safely using a custom class, not Bootstrap core classes.
+
+.custom-slide {
+
+  height: 570px;
+
+}
+
+
+
+.custom-slide img {
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+✅ Benefits
+
+Prevents image distortion
+
+Keeps full-width responsiveness
+
+Avoids breaking Bootstrap carousel animation
+
+Allows easy height changes from one place
+
+⚠️ Critical Rules Followed
+
+✔ Never renamed carousel-item (required by Bootstrap JS)
+
+✔ Custom styling added via extra class, not replacement
+
+✔ Separate carousels avoid image scaling hacks
+
+✔ Uses Bootstrap display utilities instead of JavaScript hacks
+
+🛠️ How to Customize
+
+🔹 Change Carousel Height
+
+Edit one line:
+
+.custom-slide {
+
+  height: 570px;
+
+}
+
+🔹 Make Height Responsive
+
+.custom-slide {
+
+  height: 250px;
+
+}
+
+
+
+@media (min-width: 768px) {
+
+  .custom-slide {
+
+    height: 570px;
+
+  }
+
+}
+
+🔹 Change Logo Size
+
+.image {
+
+  height: 50px;
+
+  width: auto;
+
+}
+
+🚀 Why This Approach Is Correct
+
+Uses Bootstrap the way it’s designed
+
+Avoids layout breaking
+
+Scales cleanly across devices
+
+Easy to maintain and extend
+
+This structure is production-safe, not a demo hack.
+
+✅ Final Notes
+
+HTML and CSS are intentionally separated
+
+No inline styles (good practice)
+
+No JavaScript customization needed
+
