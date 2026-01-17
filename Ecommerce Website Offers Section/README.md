@@ -200,11 +200,10 @@ This is a production-ready banner section, not a demo layout.
 
 ✅ Final Notes
 
-Fully responsive across devices<img width="822" height="349" alt="Screenshot 2026-01-17 185832" src="https://github.com/user-attachments/assets/0b8c6dae-b5e1-4151-a16e-fdef262f7724" />
-
-
+Fully responsive across devices
 Easy to integrate into an e-commerce homepage
-
-Scales well with additional promotional content<img width="513" height="663" alt="Screenshot 2026-01-17 185910" src="https://github.com/user-attachments/assets/40e908b6-da8c-4ed9-8307-56b9e2379a04" />
+Scales well with additional promotional content
+<img width="822" height="349" alt="Screenshot 2026-01-17 185832" src="https://github.com/user-attachments/assets/0b8c6dae-b5e1-4151-a16e-fdef262f7724" />
+<img width="513" height="663" alt="Screenshot 2026-01-17 185910" src="https://github.com/user-attachments/assets/40e908b6-da8c-4ed9-8307-56b9e2379a04" />
 
 
