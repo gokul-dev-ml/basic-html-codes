@@ -113,3 +113,6 @@ Scalable and maintainable structure
 
 <img width="317" height="430" alt="Screenshot 2026-01-19 231024 - Copy" src="https://github.com/user-attachments/assets/48a13e83-f7e3-40de-a770-9b547e474a3f" />
 
+<img width="313" height="481" alt="Screenshot 2026-01-19 231036 - Copy" src="https://github.com/user-attachments/assets/56445c54-bcb4-4aef-a33e-1c3b97b84944" />
+<img width="521" height="655" alt="Screenshot 2026-01-19 231609 - Copy" src="https://github.com/user-attachments/assets/83b6b9de-e901-4a0a-a9cb-8ea923755c56" />
+<img width="785" height="467" alt="Screenshot 2026-01-19 231644 - Copy" src="https://github.com/user-attachments/assets/ea6c64e4-2ee4-4b32-80c3-2006db0592a0" />
