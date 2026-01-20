@@ -1,0 +1,61 @@
+
+.bg {
+    background-color: #0d2436;
+}
+
+
+.site-logo {
+    height: 70px;
+    width: 150px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: #152c3e;
+    border-radius: 50%;
+    margin-left: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon {
+    color: #5a7184;
+}
+
+p {
+    color: #5a7184;
+
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+
+h1 {
+    color: #5a7184;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.line {
+    border-bottom: 1px solid #5a7184;
+    width: 100%;
+   
+    display: inline;
+}
