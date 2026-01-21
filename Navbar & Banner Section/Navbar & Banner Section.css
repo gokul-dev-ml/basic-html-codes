@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image {
+    height: 30px;
+    width: 110px;
+    object-fit: contain;
+}
+
+.bg{
+    background-image: url("https://assets.ccbp.in/frontend/responsive-website/landing-section-bg.png");
+    background-size: cover;
+    background-position: center;
+   height: 100vh;
+}
+
+h1{
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.heading{
+    color: #ffdda9;
+}
+
+p{
+    color: white;
+    font-family: "Roboto";
+    font-weight: 500;
+    
+}
+
+wbr { display: none; }
+
+@media (min-width: 1200px) {
+    wbr { display: inline; }
+}
+
+
+button{
+    color: #0c0521;
+    background-color:#ffdda9 ;
+    height:50px ;
+    width: 170px;
+    font-weight: 600;
+    font-family: "Roboto";
+    border-width: 0px;
+    border-radius: 30px;
+}
+
+.bg2{
+    background-color: #0c0521;
+}
